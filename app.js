@@ -110,13 +110,67 @@
 //     console.log(row.trim()); // print the entire row at once
 // }
 
-// star pattern
+// square pattern
+// var rows = +prompt("Enter number of rows:");
+// var col = +prompt ("Enter number columns:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=0; i<rows ; i++){
+//   for (var j=0;j<col;j++){
+//     document.write(chr);
+//   }
+//   document.write("<br>");
+// }
+
+//  right angled triangle pattern
+
+// var rows = +prompt("Enter number of rows:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=1; i<=rows ; i++){
+//   for (var j=1; j<=i;j++){
+//     document.write (chr);
+//   }
+//   document.write("<br>");
+// }
+
+//   pyramid pattern
+
+
+// var rows = +prompt("Enter number of rows:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=1; i<=rows ; i++){ 
+//   for (var k=1;k<=rows-i;k++){
+//     document.write("&nbsp;&nbsp;");
+//   }
+//   for (var j=1; j<=i;j++){
+//     document.write (chr);
+//   }
+//   for (var l=2;l<=i;l++){
+//     document.write(chr);
+//   }
+//   document.write("<br>");
+// }
+
+//  left angled triangle pattern`
+  // 
+// var rows = +prompt("Enter number of rows:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=1; i<=rows ; i++){
+//   for (var k=1;k<=rows-i;k++){
+//     document.write("&nbsp;&nbsp;");
+//   }
+//   for (var j=1; j<=i;j++){
+//     document.write (chr);
+//   }
+//   document.write("<br>");
+// }
+
+// backward right angled triangle pattern
+
 var rows = +prompt("Enter number of rows:");
-var col = +prompt ("Enter number columns:");
 var chr = prompt("Enter a character to use:");
-for (var i=0; i<rows ; i++){
-  for (var j=0;j<col;j++){
-    document.write(chr);
+for (var i=1; i>=rows ; i--){
+  for (var j=rows; j>=i;j--){
+    document.write (chr);
   }
   document.write("<br>");
 }
