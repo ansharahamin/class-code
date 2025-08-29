@@ -92,20 +92,31 @@
 //     }
 // }
 // 3d array
-var numbers = [
-  [[5], [2], [9], [1]],
-  [[8], [7], [3], [4]],
-  [[6], [12], [11], [0]]
-];
+// var numbers = [
+//   [[5], [2], [9], [1]],
+//   [[8], [7], [3], [4]],
+//   [[6], [12], [11], [0]]
+// ];
 
-for (var i=0;i<numbers.length;i++){
-    row="Row " + (i+1) + ":";
+// for (var i=0;i<numbers.length;i++){
+//     row="Row " + (i+1) + ":";
     
-    for (var j=0;j<numbers[i].length;j++){
-         for (var k=0;k<numbers[i][j].length;k++){
-        // console.log(numbers[i][j][k]);
-        row += numbers[i][j][k] + " ";   // add each number
-    }
-    }
-    console.log(row.trim()); // print the entire row at once
+//     for (var j=0;j<numbers[i].length;j++){
+//          for (var k=0;k<numbers[i][j].length;k++){
+//         // console.log(numbers[i][j][k]);
+//         row += numbers[i][j][k] + " ";   // add each number
+//     }
+//     }
+//     console.log(row.trim()); // print the entire row at once
+// }
+
+// star pattern
+var rows = +prompt("Enter number of rows:");
+var col = +prompt ("Enter number columns:");
+var chr = prompt("Enter a character to use:");
+for (var i=0; i<rows ; i++){
+  for (var j=0;j<col;j++){
+    document.write(chr);
+  }
+  document.write("<br>");
 }
