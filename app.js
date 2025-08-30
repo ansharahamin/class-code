@@ -166,11 +166,74 @@
 
 // backward right angled triangle pattern
 
-var rows = +prompt("Enter number of rows:");
-var chr = prompt("Enter a character to use:");
-for (var i=1; i>=rows ; i--){
-  for (var j=rows; j>=i;j--){
-    document.write (chr);
-  }
-  document.write("<br>");
-}
+// var rows = +prompt("Enter number of rows:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=1; i<=rows ; i++){
+//   for (var j=rows; j>=i;j--){
+//     document.write (chr);
+//   }
+//   document.write("<br>");
+// }
+
+// backward left angled triangle pattern
+
+// var rows = +prompt("Enter number of rows:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=1; i<=rows ; i++){
+//   for (var k=rows;k>=rows-i;k--){
+//     document.write("&nbsp;&nbsp;");
+//   }
+//   for (var j=rows; j>=i;j--){
+//     document.write (chr);
+//   }
+//   document.write("<br>");
+// }
+
+//   backward pyramid pattern
+
+
+// var rows = +prompt("Enter number of rows:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=1; i<=rows ; i++){ 
+//   for (var k=rows;k>=rows-i;k--){
+//     document.write("&nbsp;&nbsp;");
+//   }
+//   for (var j=rows; j>=i;j--){
+//     document.write (chr);
+//   }
+//   for (var l=rows;l>=i;l--){
+//     document.write(chr);
+//   }
+//   document.write("<br>");
+// }
+
+
+// diamond Pattern 
+// wrong!!!
+
+// var rows = +prompt("Enter number of rows:");
+// var chr = prompt("Enter a character to use:");
+// for (var i=1; i<=rows ; i++){ 
+//   for (var k=1;k<=rows-i;k++){
+//     document.write("&nbsp;&nbsp;");
+//   }
+//   for (var j=1; j<=i;j++){
+//     document.write (chr);
+//   }
+//   for (var l=2;l<=i;l++){
+//     document.write(chr);
+//   }
+//   document.write("<br>");
+// }
+// for (var m=1; m<=rows ; m++){ 
+//   for (var p=rows;p>=rows;p--){
+//     document.write("&nbsp;&nbsp;");
+//   }
+//   for (var n=rows; n>=m;n--){
+//     document.write (chr);
+//   }
+//   for (var o=rows;o>=m;o--){
+//     document.write(chr);
+//   }
+//   document.write("<br>");
+// }
